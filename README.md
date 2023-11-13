@@ -1,4 +1,5 @@
 # Unleash the Power of Azure Open AI
+jon steen
 
 1. [Introduction](#introduction)
 1. [Solution Overview](/docs/1-introduction.md)
