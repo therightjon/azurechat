@@ -37,7 +37,8 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           <p className="text-sm text-muted-foreground">
             How would you like to chat?
           </p>
-          <ChatTypeSelector disable={false} />
+          {/* disabled file upload - Jon Steen */}
+          <ChatTypeSelector disable={true} />
         </div>
         {showFileUpload === "data" && <ChatFileUI />}
       </Card>
