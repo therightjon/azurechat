@@ -22,7 +22,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           personalise the chat by making changes to the settings on the right.
         </p>
         <p className="">
-          Remember no <span className="font-bold">Sensitive or PHI data</span> is allowed.
+          Please remember <span className="font-bold">NOT</span> to share <span className="font-bold">sensitive or PHI data</span>.
         </p>
         </div>
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
