@@ -19,12 +19,11 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
         <img src="/ai-icon.png" className="w-36" />
         <p className="">
           Start by just typing your message in the box below. You can also
-          personalise the chat by making changes to the settings on the right. 
-          Remember no Sensitive or PHI data is allowed.
+          personalise the chat by making changes to the settings on the right.
         </p>
-      </div>
-      <div className="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
-         <p>Remember no <span className="font-bold">Sensitive or PHI data</span> is allowed.</p>
+        <p className="">
+          Remember no <span className="font-bold">Sensitive or PHI data</span> is allowed.
+        </p>
         </div>
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
         <Typography variant="h4" className="text-primary">
