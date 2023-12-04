@@ -45,7 +45,7 @@ const ChatInput: FC<Props> = (props) => {
         <Textarea
           rows={rows}
           value={input}
-          placeholder="Send a message"
+          placeholder="Send a message (Press Shift + Enter for new line)"
           className="min-h-fit bg-background shadow-sm resize-none py-4 pr-[80px]"
           onKeyUp={onKeyUp}
           onKeyDown={onKeyDown}
