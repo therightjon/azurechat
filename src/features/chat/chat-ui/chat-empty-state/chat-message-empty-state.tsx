@@ -23,6 +23,9 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           Remember no Sensitive or PHI data is allowed.
         </p>
       </div>
+      <div className="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+         <p>Remember no <span className="font-bold">Sensitive or PHI data</span> is allowed.</p>
+        </div>
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
         <Typography variant="h4" className="text-primary">
           Personalise
