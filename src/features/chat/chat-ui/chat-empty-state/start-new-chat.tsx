@@ -22,6 +22,9 @@ export const StartNewChat: FC<Prop> = (props) => {
             the AI assistant and refrain from participating in any harmful
             activities.
           </p>
+          <div class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+            Remember no <span class="font-medium">Sensitive or PHI data</span> is allowed.
+          </div>
           <p>You can start a new chat with me by clicking the button below.</p>
         </div>
         <div className="-mx-5 -mb-5 p-5 flex flex-col border-t bg-muted">
