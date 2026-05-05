@@ -615,8 +615,7 @@
               "apiVersion": "2023-05-01",
               "name": "[format('{0}/{1}', variables('openai_name'), variables('deployments')[copyIndex()].name)]",
               "properties": {
-                "model": "[variables('deployments')[copyIndex()].model]",
-                "raiPolicyName": "[if(contains(variables('deployments')[copyIndex()], 'raiPolicyName'), variables('deployments')[copyIndex()].raiPolicyName, null())]"
+                "model": "[variables('deployments')[copyIndex()].model]"
               },
               "sku": "[if(contains(variables('deployments')[copyIndex()], 'sku'), variables('deployments')[copyIndex()].sku, createObject('name', 'Standard', 'capacity', variables('deployments')[copyIndex()].capacity))]",
               "dependsOn": [
